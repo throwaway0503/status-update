@@ -1,7 +1,14 @@
+"use client";
+
+import { useEffect } from "react";
+import './main-style.css';
+
 export default function Home() {
-  return (
-    <main>
-      <div>Next.js on GitHub Pages xdxdxdxd</div>
-    </main>
-  );
+  useEffect(() => {
+    window.location.href = "status-update/1";
+  });
+
+  return (<>
+    <div className="main"></div>
+  </>); 
 }

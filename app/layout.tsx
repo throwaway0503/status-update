@@ -5,11 +5,7 @@ export const metadata: Metadata = {
   description: 'Deploy your static Next.js site to GitHub Pages.',
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children }: Readonly<{ children: React.ReactNode; }>) {
   return (
     <html lang="en">
       <body>{children}</body>
