@@ -5,7 +5,7 @@ import './main-style.css';
 
 export default function Home() {
   useEffect(() => {
-    window.location.href = "status-update/1";
+    window.location.href = "1";
   });
 
   return (<>
