@@ -16,6 +16,6 @@ const CurrentContent: React.FC = () => {
 
 export default function Home() {
   return (
-    <MainPage title='Title' Content={CurrentContent} nextRef={'2'}/>
+    <MainPage title='Title' Content={CurrentContent} prevRef={'1'} nextRef={'3'}/>
   ); 
 }

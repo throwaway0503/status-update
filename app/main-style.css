@@ -49,6 +49,18 @@ body {
     cursor: pointer;
 }
 
+.empty-ref-button {
+    display: flex;
+    gap: 15px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border: 2px transparent rgba(186,187,206,0);
+    border-radius: 15px;
+    width: 20%;
+}
+
 .ref-button-container {
     display: flex;
     align-items: center;
