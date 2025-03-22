@@ -1,21 +1,16 @@
 "use client";
 
-import { MainPage } from "../main-page";
+import { MainPage, Video } from "../main-page";
 
 const CurrentContent: React.FC = () => {
+  // TODO: add jano direct intro video
   return (<>
-    <div>
-      Next.js on GitHub Pages xdxdxdxdNext.js on GitHub Pages xdxdxdxdNext.js on GitHub Pages xdxdxdxdNext.js on GitHub Pages xdxdxdxdNext.js on GitHub Pages xdxdxdxdNext.js on GitHub Pages xdxdxdxdNext.js on GitHub Pages xdxdxdxdNext.js on GitHub Pages xdxdxdxd
-    </div>
-
-    <div>
-      Next.js on GitHub Pages xdxdxdxdNext.js on GitHub Pages xdxdxdxdNext.js on GitHub Pages xdxdxdxdNext.js on GitHub Pages xdxdxdxdNext.js on GitHub Pages xdxdxdxdNext.js on GitHub Pages xdxdxdxdNext.js on GitHub Pages xdxdxdxdNext.js on GitHub Pages xdxdxdxd
-    </div>
+    <Video src="jano-direct.mp4"/>
   </>);
 };
 
 export default function Home() {
   return (
-    <MainPage title='Title' Content={CurrentContent} nextRef={'2'}/>
+    <MainPage title='Intro' Content={CurrentContent} nextRef={'2'}/>
   ); 
 }

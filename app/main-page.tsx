@@ -19,7 +19,9 @@ const Title: React.FC<TitleProps> = ({ title }) => {
 
 const Divider: React.FC = () => {
   return (<>
-    <div className='divider'></div>
+    <div className='divider-container'>
+      <div className='divider'></div>
+    </div>
   </>);
 };
 
@@ -89,6 +91,25 @@ const EmptyRefButton: React.FC = () => {
   </>);
 };
 
+// Video
+
+interface VideoProps {
+  src: String,
+  width?: number
+};
+
+export const Video: React.FC<VideoProps> = ({ src, width }) => {
+  if (width === undefined) {
+    width = 600;
+  }
+  return (<>
+    <video controls width={width}>
+      <source src={src.toString()} type="video/mp4"/>
+      Your browser does not support the video tag.
+    </video>
+  </>);
+};
+
 // Main Page Component
 
 interface MainPageProps {
@@ -105,7 +126,9 @@ export const MainPage: React.FC<MainPageProps> = ({ title, Content, prevRef, nex
 
       <Title title={title}/>
 
-      <Content/>
+      <div className='content-container'>
+        <Content/>
+      </div>
     
       <Divider/>
 

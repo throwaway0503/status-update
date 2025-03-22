@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'En serio? Una pagina???'
+  title: 'Contrato:'
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode; }>) {
