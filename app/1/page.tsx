@@ -5,7 +5,7 @@ import { MainPage, Video } from "../main-page";
 const CurrentContent: React.FC = () => {
   // TODO: add jano direct intro video
   return (<>
-    <Video src="jano-direct.mp4"/>
+    <Video src="direct.mp4"/>
   </>);
 };
 

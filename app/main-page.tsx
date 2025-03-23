@@ -110,6 +110,21 @@ export const Video: React.FC<VideoProps> = ({ src, width }) => {
   </>);
 };
 
+// Audio
+
+interface AudioProps {
+  src: String,
+};
+
+export const Audio: React.FC<AudioProps> = ({ src }) => {
+  return (<>
+    <audio controls>
+      <source src={src.toString()} type="audio/mpeg"/>
+      Your browser does not support the audio element.
+    </audio>
+  </>);
+};
+
 // Main Page Component
 
 interface MainPageProps {
