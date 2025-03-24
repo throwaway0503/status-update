@@ -3,8 +3,10 @@
 import { MainPage, Video } from "../main-page";
 
 const CurrentContent: React.FC = () => {
-  // TODO: add jano direct intro video
   return (<>
+    <p>
+      (Para mejorar la experiencia se recomienda tener audio activado xd)
+    </p>
     <Video src="direct.mp4"/>
   </>);
 };

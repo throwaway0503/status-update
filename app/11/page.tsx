@@ -12,6 +12,9 @@ const CurrentContent: React.FC = () => {
             Para ser mas preciso, actualmente me identifico como semi - no binarie / semi - masculino. Técnicamente los pronombres 'they/him' en español sería algo tipo 'elle/él', pero esto de los pronombres son por preferencia personal, así que por preferencia personal en español de preferencia usen 'él', aunque no me molestaría si haces lo otro supongo? XD
         </p>
         <p>
+            También cabe destacar que esto no significa nada fuera de una identidad. No es una orientación romántica / sexual. Aun me gustan las mujeres y no me gustan los hombres (sorprendente, lo se XD)
+        </p>
+        <p>
             El hecho es que pese a ser hombre de nacimiento, no me identifico con el género masculino, o al menos no al completo. Pese a ser hombre de nacimiento, no me siento cómodo realmente pensando que comparto género de nacimiento con los "machos alfa sigma mewing mamados barbudos" o una mierda así. Estoy al tanto sin embargo de que no tienes que ser 'masculino' para ser 'hombre', pero de todas formas elegí identificarme con esto porque siento que representa mejor mi identidad actual.
         </p>
         <p>

@@ -20,7 +20,7 @@ const CurrentContent: React.FC = () => {
             Es por ello que, luego de bastante consideración, me decidí en un nombre que siento que me representa mejor y que me gustó (que además era gender-neutral): 'Moon'.
         </p>
         <p>
-            Pero bueno, no estoy exigiendo que ahora me digan así. También voy por 'Oré' o 'Jano' (y 'Alejandro' por tecnicidad, pero prefereiblemente no); así que en teoría no debería de haber ningun cambio para ustedes (porque imagina llamarme Alejandro XD), y entonces solo les estaba contando sobre esta decisión que tome.
+            Pero bueno, no estoy exigiendo que ahora me digan así. También voy por 'Oré' o 'Jano' (y 'Alejandro' por tecnicidad, pero prefereiblemente no); así que en teoría no debería de haber ningun cambio para ustedes (porque imagina llamarme Alejandro XD), y entonces sólo les estaba contando sobre esta decisión que tome.
         </p>
         <p>
             Como les digo, esta es probablemente la decisión más experimental aquí, porque decirles a las personas que conozca en universidad que me llamen 'Moon' es algo que nunca he hecho realmente, pero bueno toca intentar supongo XD
