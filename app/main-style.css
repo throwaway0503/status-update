@@ -91,3 +91,73 @@ body {
     gap: 50%;
     padding-bottom: 20%;
 }
+
+.input-thing {
+    display: flex;
+    flex-direction: row;
+    padding: 2% 0;
+}
+
+.checkbox {
+    max-width: 10%;
+}
+
+.contract {
+    max-width: 45%;
+    text-align: left;
+}
+
+/* Mobile-specific styles */
+@media (max-width: 600px) {
+    body {
+        font-size: 110%;  /* Reduce font size for smaller screens */
+        height: auto;  /* Allow content to expand naturally */
+        padding: 10px;  /* Add some padding */
+        width: 90vw;
+    }
+
+    .main {
+        width: 90%;  /* Make it take most of the screen width */
+        height: auto;  /* Allow it to grow as needed */
+        gap: 5%;  /* Reduce spacing */
+    }
+
+    .title {
+        font-size: 200%;  /* Reduce title size slightly */
+        text-align: center;  /* Keep title centered */
+        margin-bottom: 5%;
+    }
+
+    .content-container {
+        max-width: 90%;  /* Use full width */
+        font-size: 95%;  /* Adjust font size */
+    }
+
+    .divider-container {
+        height: 1px;
+    }
+
+    .divider {
+        background-color: rgb(186,187,206);
+        color: rgb(186,187,206);
+    }
+
+    .ref-button-container {
+        gap: 20%;  /* Reduce gap between buttons */
+        flex-wrap: nowrap;
+        padding-bottom: 10%;
+    }
+
+    .ref-button {
+        width: 40%;  /* Make buttons wider for easier clicking */
+        font-size: 90%;  /* Adjust font size */
+        gap: 10px;
+        padding: 4%;
+        max-width: 40%;
+    }
+
+    .empty-ref-button {
+        width: 40%; 
+        max-width: 40%;
+    }
+}

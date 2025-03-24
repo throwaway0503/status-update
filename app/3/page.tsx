@@ -14,12 +14,10 @@ const CurrentContent = ({ isChecked, setIsChecked }: { isChecked: boolean, setIs
 		<p style={{ fontSize: '40%' }}>
 			(También me vendes tu alma)
 		</p>
-		<div style={{ display: "block ruby", width: "10%", alignSelf: "center"}}>
-			<label>
-				<input type="checkbox" checked={isChecked} onChange={(e) => setIsChecked(e.target.checked)} />
-					Acepto los términos y condiciones
-				</label>
-			</div>
+		<div className="input-thing">
+			<input className="checkbox" type="checkbox" checked={isChecked} onChange={(e) => setIsChecked(e.target.checked)} />
+			<div className="contract">Acepto los términos y condiciones</div>
+		</div>
 		<p>
 			Si bien dudo que esto sea necesario, nunca se sabe XD
 		</p>

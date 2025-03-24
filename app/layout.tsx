@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Next.js on GitHub Pages',
-  description: 'Deploy your static Next.js site to GitHub Pages.',
+  title: 'Status update',
+  description: 'Mensaje importante.',
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode; }>) {
