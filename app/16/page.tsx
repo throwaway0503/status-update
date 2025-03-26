@@ -11,7 +11,10 @@ const CurrentContent: React.FC = () => {
             Si bien esta página no es la más detallada ni más compleja del mundo, le puse bastante cariño y el resultado me gustó. No esta mál para ser un mini proyecto de unos 3 días o por allí XD
         </p>
         <p>
-            Una vez dicho todo esto, creo que de momento no tengo nada más que contar de momento. Si cualquier cosa fuese a surgir, voy a confiar en ustedes. Gracias por los jajas, por las mierdas, y sobretodo por estar aquí conmigo. Se que no es la primera vez que digo esto así que quizas ya no tenga tanto valor como antes, pero igual, los quiero gente XD
+            Una vez dicho todo esto, creo que de momento no queda nada más que decir. Si cualquier cosa fuese a surgir, se que podré confiar en ustedes. Gracias por los jajas, por las mierdas, por lo que sea, y sobretodo por estar aquí conmigo.
+        </p>
+        <p>
+            Se que no es la primera vez que digo esto, así que quizas ya no tenga tanto valor como antes pero igual, los quiero gente XD
         </p>
         <p>
             Así que bueno, eso es todo. Gracias.

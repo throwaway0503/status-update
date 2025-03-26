@@ -14,16 +14,16 @@ const CurrentContent: React.FC = () => {
             Una característica de mi ex-personaje es que realmente no tiene 'gustos musicales reales', por así decirlo. En caso de música la respuesta siempre era música de videojuegos exclusivamente.
         </p>
         <p>
-            Ahora, no estoy intentando decir que la música de videojuegos no es música, ese argumento es estúpido, pero ese no es el tema.
+            Ahora, no estoy intentando decir que la música de videojuegos no es música o algo así (ese argumento es estúpido, pero ese no es el tema).
         </p>
         <p>
-            Lo que estoy intentando decir es que siempre me he restringido a limitar los gustos que comparto hacia otros, porque sentía que mi personaje me limitaba a ello. "Mi personaje no escucha música, solo juega jueguitos y ya".
+            Lo que estoy intentando decir es que siempre me he restringido a limitar los gustos que comparto hacia otros, porque sentía que mi personaje me limitaba a ello. "Mi personaje no escucha música, solo juega jueguitos y ya", y por ende ese 'personaje' debía ser 'yo'.
         </p>
         <p>
-            Y de hecho esto no era incorrecto inicialmente. Justamente por este personaje me estaba forzando a no escuchar otro tipo de música porque "no era lo que mi personaje haría", pero poco antes desde que inició la universidad empecé a explorar y experimentar más con respecto a ello.
+            Y de hecho esto no era incorrecto inicialmente. Básicamente a causa de este personaje me estaba forzando a no escuchar otro tipo de música porque "escuchar música de videojuegos es lo que mi personaje hace"... pero poco antes desde que inició la universidad empecé a explorar y experimentar más con respecto a ello, y empecé a formar gustos que se salían de personaje...
         </p>
         <p>
-            Sin embargo, nunca le he contado nada a nadie por miedo a romper este personaje que ya había establecido. "Mi personaje no haría eso, así que yo tampoco lo haré", pensé. Pero como ya se podrán imaginar cómo va esta mierda, obviamente voy a romper eso ahora mismo.
+            Sin embargo nunca se lo he contado a casi nadie por miedo a romper este personaje que ya había establecido. "Mi personaje no haría eso, así que yo tampoco lo haré", pensé. Pero como ya se podrán imaginar cómo va esta mierda, obviamente voy a romper eso ahora mismo.
         </p>
         <p>
             Como ya había dicho antes, esto puede parecer algo trivial a simple vista, y objetivamente hablando supongo que lo es, pero para mí es mucho más que eso. Solo se lo he contado a dos personas antes: Cyan y Pachis. En general algo así de simple para mí significa mucho porque bueno asi soy XD
@@ -38,16 +38,25 @@ const CurrentContent: React.FC = () => {
             </a>
         </p>
         <p>
+            (btw Spotify es una mierda y por eso uso yt music, jodanse :V)
+        </p>
+        <p>
+            De hecho esta es una playlist que creé inicialmente para compartirle un sneak-peak de mis gustos musicales a Pachis, porque a pesar de que uso yt music realmente no uso playlists, solo escucho lo que esta en quick listen creo que se llama.
+        </p>
+        <p>
+            Esta playlist no solo es una compilación de canciones que me gustan, sino que son todas canciones que clasificaría como 'peak' (de allí el nombre de esta página), porque evocan en mí cierta sensación de grandeza que no sabría muy bien cómo describir en palabras.
+        </p>
+        <p>
+            Si bien hay muchas más canciones que escucho, no todas serían clasificadas como 'peak'. Aunque igual hay un tiempo para todo. No todas las canciones tienen que evocar esta grandeza para ser buenas. A veces solo quiero escuchar música más simple y más movida, y eso está bien. En todo caso si les gustaría también un poco de eso avisen nomás XD
+        </p>
+        <p>
             Por cierto, la playlist está diseñada para ser escuchada en orden, no shuffleada. No por ninguna razón fuerte en particular, sino porque también hice el esfuerzo de que las canciones 'alineen' bien en términos de tono. Siento que así las canciones quedan mejor.
         </p>
         <p>
             Y también, notarán tal vez que hay mucha presencia de este grupo llamado 'Muse' (mis GOATS), al igual que una canción de videojuegos se coló a la playlist real (es que Bury the Light temazo imo)
         </p>
         <p>
-            (btw Spotify es una mierda y por eso uso yt music, jodanse :V)
-        </p>
-        <p>
-            Puede que mis gustos musicales difieran de los suyos (así como puede que no, no sabría decirles XD), pero si quieren discutir cualquier cosa al respecto entonces díganlo. Me encantaría conocer sus opiniones al respecto XD
+            Puede que mis gustos musicales difieran de los suyos (así como puede que no, no sabría decirles XD), pero si quieren discutir cualquier cosa al respecto entonces díganlo. Me encantaría conocer sus opiniones al respecto después de tanto ocultar mis gustos reales XD
         </p>
     </>);
 };

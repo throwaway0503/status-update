@@ -3,15 +3,22 @@
 import { MainPage } from "../main-page";
 
 const CurrentContent: React.FC = () => {
+    const theGame: string = "the game";
+
     return (<>
         <p>
             ¿Qué significa esto? ¿Qué es un 'nuevo inicio'? De momento no es nada aparentemente fuera de lo común. Para una persona promedio quizás no lo sea, pero para mí es bastante.
         </p>
         <p>
-            He empezado a hacer varias cosas por primera vez. Algo tan aparentemente trivial como lo es ir a comprar ropa por mí mismo, y decidir que quiero. He hecho cosas como reorganizar mi cuarto luego de como 4 años de tenerlo en la misma configuración.
+            He empezado a hacer varias cosas por primera vez. Algo tan aparentemente trivial como lo es ir a comprar ropa por mí mismo, y decidir que quiero. He hecho cosas como reorganizar la configuración de mi cuarto luego de como 4 años de tenerlo en la misma configuración.
         </p>
         <p>
-            También, he decidido cortarme el pelo de una manera diferente a la que usualmente hago (not yet, coming soon tho 👀...).
+            También, he decidido cortarme el pelo de una manera diferente a la que usualmente hago (not yet, coming soon tho 
+            <> </>
+            <span title={"void void void"}>
+                 👀
+            </span>
+            ...).
         </p>
         <p>
             Como dije, son cosas aparentemente simples, pero para mí realmente cada una de estas cosas que estoy haciendo tiene un significado mayor. Me gustaría contarles más al respecto, pero no nos apresuremos sobre los detalles aún.
@@ -23,7 +30,7 @@ const CurrentContent: React.FC = () => {
             Y bueno, esto no es solo un cambio de cuenta de discord y ya. Es también un cambio de identidad online. En efecto me estoy despidiendo de D4rkMn, y le estoy cambiando por una identidad que siento que actualmente me representa mejor.
         </p>
         <p>
-            Denle la bienvenida a... <b style={{ fontWeight: '1000' }}> moonliit</b>!
+            Denle la bienvenida a... <b style={{ fontWeight: '1000' }} title={theGame}> moonliit</b>!
         </p>
     </>);
 };

@@ -8,7 +8,7 @@ const CurrentContent: React.FC = () => {
             Genial, gracias por aceptar venderme tu alma!!!
         </p>
         <p>
-            (Si, era parte del contrato, te pasa por no leer las letras chiquitas)
+            (Sí, era parte del contrato. Te pasa por no leer las letras chiquitas)
         </p>
         <p>
             Así que bueno, toca empezar a hablar y dejar de shitpostear o algo así...

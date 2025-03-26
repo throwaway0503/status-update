@@ -135,7 +135,6 @@ interface MainPageProps {
 };
 
 export const MainPage: React.FC<MainPageProps> = ({ title, Content, prevRef, nextRef }) => {
-  // TODO: make it so that if button refs to -1 then it makes the respective button non-existant
   return (
     <main className='main'>
 

@@ -12,13 +12,13 @@ const CurrentContent: React.FC = () => {
             Me hago llamar Moon. También conocido como Jano, también conocido como Oré.
         </p>
         <p>
-            NO fui mordido por una araña radioactiva o algo así, pero igual soy estúpido XD
+            NO fui mordido por una araña radioactiva o nada así... pero igual soy estúpido XD
         </p>
         <p>
-            Me parece que se conocen el resto. Estudié en Innova Schools, hice amigos, al igual que no-amigos (creo??). Pasaron cosas, creé Fiestita por una cosa que dijo una vez mi mamá, me gustó Lucía (el incidente Lu menor que 3 XD), entre a UTEC, y bueno.
+            Me parece que se conocen el resto. Estudié en Innova Schools, hice amigos, al igual que no-amigos (creo??). Pasaron varias cosas: creé Fiestita en nombre a una cosa que dijo mi mamá una vez, me gustó Lucía (el incidente Lu menor que 3 XD), entre a UTEC, hice amigos, pasó lo de Cyan, y bueno... Estoy buscando cambiar. Ser mejor como persona. Y por ello estoy haciendo todo esto.
         </p>
         <p>
-            Estoy buscando cambiar, ser mejor como persona, y por eso estoy haciendo todo esto. Pero después de todo, sigo siendo la misma persona fundamentalmente hablando. Algunas cosas cambiarán aquí y allá, pero después de todo, sigo siendo yo. Así que no importa cuántas veces me caiga, siempre encontraré una forma de levantarme.
+            Pero después de todo, sigo siendo la misma persona fundamentalmente hablando. Algunas cosas cambiarán aquí y allá, pero después de todo, sigo siendo yo. Así que no importa cuántas veces me caiga, siempre encontraré una forma de levantarme.
         </p>
         <p>
             Y... aquí es donde me quede sin cosas que decir para seguir el copypasta (ojalá no haberme salido mucho de guión XD)
@@ -27,7 +27,7 @@ const CurrentContent: React.FC = () => {
             Pero sí, fuera del chiste. Estoy buscando 'reintroducirme' a ustedes. Nada ha cambiado fundamentalmente como dije, pero me gustaría que me acepten por quien estoy eligiendo ser. Y si bien nada de esto es algo muy diferente aun, déjenme ser dramático oe XD
         </p>
         <p>
-            Y bueno, ya que estamos hablando de cosas diferentes a lo que mi personaje solía hacer, voy a compartirles algo que anteriormente para mí era algo relativamente personal...
+            Y bueno, ya que estamos hablando de cosas diferentes a lo que mi personaje solía hacer, voy a compartirles algo que anteriormente para mí era algo bastante personal...
         </p>
     </>);
 };
