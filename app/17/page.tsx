@@ -1,11 +1,13 @@
 "use client";
 
-import { MainPage } from "../main-page";
+import { MainPage, Audio } from "../main-page";
 
 const CurrentContent: React.FC = () => {
     // TODO: change the finale gif
     return (<>
         <img src={"finale.gif"}/>
+        <p/>
+        <Audio src={"thank-you.mp3"}/>
     </>);
 };
 
