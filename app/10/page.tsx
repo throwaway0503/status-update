@@ -5,7 +5,7 @@ import { MainPage, Video } from "../main-page";
 const CurrentContent: React.FC = () => {
     return (<>
         <p>
-            <b style={{ fontWeight: '1000' }}> moonliit...</b>
+            <b style={{ fontWeight: '1000', cursor: "pointer" }} title={"puto el que lo lea"}> moonliit...</b>
         </p>
         <img src={"moonliit.png"}/>
         <p>

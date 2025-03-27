@@ -15,7 +15,7 @@ const CurrentContent: React.FC = () => {
         <p>
             También, he decidido cortarme el pelo de una manera diferente a la que usualmente hago (aunque de momento no revelaré mucho al respecto... coming soon tho 
             <> </>
-            <span title={"void void void"}>
+            <span style={{ cursor: "pointer" }} title={"void void void"}>
                  👀
             </span>
             ...)
@@ -30,7 +30,7 @@ const CurrentContent: React.FC = () => {
             Y bueno, esto no es solo un cambio de cuenta de Discord y ya. Es también un cambio de identidad online. En efecto, me estoy despidiendo de D4rkMn, y lo estoy cambiando por una identidad que siento que actualmente me representa mejor...
         </p>
         <p>
-            Denle la bienvenida a... <b style={{ fontWeight: '1000' }} title={theGame}> moonliit</b>!
+            Denle la bienvenida a... <b style={{ fontWeight: '1000', cursor: "pointer" }} title={theGame}> moonliit</b>!
         </p>
     </>);
 };

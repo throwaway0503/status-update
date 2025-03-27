@@ -3,17 +3,25 @@
 import { MainPage } from "../main-page";
 
 const CurrentContent: React.FC = () => {
+    const basePathOption: string | undefined = process.env.NEXT_PUBLIC_PAGES_BASE_PATH;
+    let basePath: string;
+    if (basePathOption === undefined) {
+        basePath = "";
+    }
+    else {
+        basePath = basePathOption;
+    }
+    
     const banca = () => {
-        const basePathOption: string | undefined = process.env.NEXT_PUBLIC_PAGES_BASE_PATH;
-        let basePath: string;
-        if (basePathOption === undefined) {
-            basePath = "";
-        }
-        else {
-            basePath = basePathOption;
-        }
-
         window.location.href = basePath + '/' + "cyan";
+    };
+
+    const fiestita = () => {
+        window.location.href = basePath + '/' + "fiestita.mp4";
+    };
+
+    const pachis = () => {
+        window.location.href = basePath + '/' + "pachis.mp4";
     };
 
     return (<>
@@ -23,7 +31,7 @@ const CurrentContent: React.FC = () => {
         <p>
             Primero lo obvio. Quiero agradecer a Fiestita en general por estar aquí.
         </p>
-        <img src={"fiestita.jpg"}/>
+        <img style={{ cursor: "pointer" }} src={"fiestita.jpg"} onClick={fiestita}/>
         <p>
             Segundo a una persona que tuvo su sección entera XD: Cyan. Ya dije lo que tenía que decir antes, así que allí queda.
         </p>
@@ -36,7 +44,7 @@ const CurrentContent: React.FC = () => {
         <p>
             Cuarto, Pachis otra vez XD, porque fui la primera persona a la que le mostré la página y se ofreció a corregir varias faltas ortográficas por allí XD
         </p>
-        <img src={"pachis.png"}/>
+        <img style={{ cursor: "pointer" }} src={"pachis.png"} onClick={pachis}/>
         <p>
             Y bueno, ahora sí sería todo...
         </p>

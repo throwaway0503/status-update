@@ -26,7 +26,7 @@ const CurrentContent: React.FC = () => {
         <p>
             Cabe resaltar que esta es una de las secciones más experimentales de todo este mensaje. O sea, ni yo estoy 100% seguro de si esto es lo que quiero, pero oye, nunca sabré si estaré seguro por completo... 
             <> </>
-            <b style={{ fontWeight: '1000' }} title={"LO DIJO OTRA VEZ NO ME LO CREO"}>
+            <b style={{ fontWeight: '1000', cursor: "pointer" }} title={"LO DIJO OTRA VEZ NO ME LO CREO"}>
                 solo es un salto de fe
             </b>.
         </p>

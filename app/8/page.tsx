@@ -14,7 +14,7 @@ const CurrentContent: React.FC = () => {
         </p>
         <p>
             Es por ello que decidí realmente dedicarme a ello en múltiples formas. Pero ahora no lo hago por un motivo externo, sino porque busco darle una clase de soft-reboot a mi vida. Se podría decir que es una clase de
-            <b style={{ fontWeight: '1000' }} title={foreshadowing}> nuevo inicio...</b>
+            <b style={{ fontWeight: '1000', cursor: "pointer" }} title={foreshadowing}> nuevo inicio...</b>
         </p>
         <img src="leap-of-faith.jpg"/>
     </>);

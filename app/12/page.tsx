@@ -21,7 +21,7 @@ const CurrentContent: React.FC = () => {
         <p>
             Es por ello que, luego de bastante consideración, me decidí en un nombre que siento que me representa mejor y que me gustó (que además era gender-neutral claro xd):
             <> </>
-            <b style={{ fontWeight: '1000' }} title={foreshadowing}>
+            <b style={{ fontWeight: '1000', cursor: "pointer" }} title={foreshadowing}>
                 'Moon'.
             </b>
         </p>
