@@ -9,22 +9,22 @@ const CurrentContent = ({ isChecked, setIsChecked }: { isChecked: boolean, setIs
 			Quizás esto sea medio innecesario de mencionar, pero quiero asegurarme de que va a ser el caso.
 		</p>
 		<p>
-			Prometes no odiarme luego de leer esto.
+			• Prometes no odiarme luego de leer esto.
 		</p>
 		<p>
 			Sí, suena dramático, pero lo digo porque sino mi ansiedad no me lo permitiría o algo XD
 		</p>
 		<p>
-			Realmente no hay nada 'revolucionario' aquí, pero definitivamente hay cosas, así que quizas esto sirva como warning para que se puedan anticipar por donde va la cosa.
+			Realmente no hay nada "revolucionario" aquí, pero definitivamente hay cosas, así que, quizás esto sirva como warning para que anticipen por donde va la cosa.
 		</p>
 		<p>
-			Similarmente, también quiero destacar que varias de las cosas que voy a mencionar aquí no son finales y están sujetas a cambio. Todo este mensaje está lleno de cosas que diría que son experimentales, y por ende no es nada 100% definitivo.
+			Similarmente, también quiero destacar que mucho de lo que voy a mencionar aquí no son decisiones finales y están sujetas a cambio. Todo este mensaje está lleno de cosas que diría que son experimentales, y por ende no es nada 100% definitivo.
 		</p>
 		<p>
 			Así que bueno, para reiterar lo innecesario. Como parte del contrato:
 		</p>
 		<p>
-			Prometes no odiarme luego de leer esto.
+			• Prometes no odiarme luego de leer esto.
 		</p>
 		<p style={{ fontSize: '40%' }}>
 			(También me vendes tu alma)

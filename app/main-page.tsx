@@ -17,7 +17,7 @@ const Title: React.FC<TitleProps> = ({ title }) => {
 
 // Dividing line component
 
-const Divider: React.FC = () => {
+export const Divider: React.FC = () => {
   return (<>
     <div className='divider-container'>
       <div className='divider'></div>
@@ -31,7 +31,7 @@ interface RefButtonProps {
   href?: String
 };
 
-const PrevRefButton: React.FC<RefButtonProps> = ({ href }) => {
+export const PrevRefButton: React.FC<RefButtonProps> = ({ href }) => {
   if (href === undefined) {
     return <EmptyRefButton/>;
   }
@@ -58,7 +58,7 @@ const PrevRefButton: React.FC<RefButtonProps> = ({ href }) => {
   </>);
 };
 
-const NextRefButton: React.FC<RefButtonProps> = ({ href }) => {
+export const NextRefButton: React.FC<RefButtonProps> = ({ href }) => {
   if (href === undefined) {
     return <EmptyRefButton/>;
   }
@@ -85,7 +85,7 @@ const NextRefButton: React.FC<RefButtonProps> = ({ href }) => {
   </>);
 };
 
-const EmptyRefButton: React.FC = () => {
+export const EmptyRefButton: React.FC = () => {
   return (<>
     <div className='empty-ref-button'></div>
   </>);

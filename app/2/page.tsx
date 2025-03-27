@@ -5,17 +5,17 @@ import { MainPage, Video } from "../main-page";
 const CurrentContent: React.FC = () => {
 	return (<>
 		<p>
-			Si. Una página. ¿Por qué no? Me tome como un mini proyecto hacer esta página, y bueno pues salió bien diría yo xd
+			Sí, una página, ¿por qué no? Me tomé como un mini-proyecto hacer esta página y, bueno, pues salió bien diría yo xd.
 		</p>
 		<p>
-			El motivo por el cual decidí escribir esto mediante una página y no sólo por un mensaje de discord largo como los que suelo escribir es porque este es relativamente más largo aún.
+			El motivo por el cual decidí escribir esto mediante una página, y no sólo por un mensaje de Discord largo como los que suelo escribir, es porque este es relativamente aún más largo.
 		</p>
 		<p>
-			También porque pense que hacerlo de esta forma me permite establecer una mejor estructura sobre el mensaje en cuestión, al igual que me ofrece la posibilidad de integrar imágenes o videos al mensaje, así como también me permite segmentar mi mensaje en 'páginas', donde cada página representa su propio tema; lo cual me integrar mejor pacing en general al mensaje (al igual que algunos cuantos momos e easter-eggs porque si xd)
+			También porque pensé que hacerlo de esta forma me permitiría establecer una mejor estructura sobre el mensaje en cuestión, al igual que me ofrece la posibilidad de integrar imágenes o videos al mensaje. Así como también me permite segmentar mi mensaje en "páginas" donde cada página representa su propio tema, lo cual me integrar mejor pacing en general al mensaje (al igual que algunos cuantos momos e easter-eggs porque sí xd)
 		</p>
 		<Video src="travesti.mp4"/>
-		<p>
-			Obviamente a mi me importa el pacing de este tipo de mensajes largos que escribo porque soy un dramático de mierda que le gusta contar cosas con estructura cohesiva porque así funciono XD 
+		<p> 
+			Obviamente, a mí me importa el pacing de este tipo de mensajes largos que escribo porque soy un dramático de mierda que le gusta contar cosas con estructura cohesiva porque así funciono XD
 		</p>
 		<p>
 			Bueno, en todo caso, por donde empiezo...
